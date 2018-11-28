@@ -1,0 +1,7 @@
+columns:
+  -title
+  -value: slug
+   extra: true
+   width:25
+   header: "The slug"
+   link: true 

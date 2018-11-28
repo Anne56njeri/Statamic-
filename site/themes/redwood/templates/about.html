@@ -1,0 +1,22 @@
+
+<section class="regular">
+
+	<header>
+		<h1>{{ title }}</h1>
+		{{ sub_title wrap="h2" }}
+	</header>
+<!-- Tags are case sensitive -->
+	<article class="content">
+		{{ content }}
+		<h2>Fun Facts</h2>
+		{{ fun_facts | ul }}
+		Where I live {{ location}} that has a temperature of {{ temperature }}
+		{{officers }}
+		{{name }} is {{ attribute }}.
+		{{ /officers }}
+		{{national_parks }}
+		 {{key }} {{ value }}
+		{{ /national_parks }}
+	</article>
+
+</section>

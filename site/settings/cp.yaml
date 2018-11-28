@@ -1,0 +1,25 @@
+widgets:
+  -
+    type: collection
+    collection: blog
+    limit: 5
+    width: full
+    permission:
+      -collection:blog:edit
+  -
+    type: collection
+    collection: things
+    limit: 5
+  -
+    type: template
+    template: bacon
+    cooking_method: fried
+  -
+    type: form
+    form: contact
+    limit: 5
+    title: Recent  Form Submissions
+    width: full
+    fields:
+      - name
+      - email
