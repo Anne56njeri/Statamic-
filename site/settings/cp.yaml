@@ -12,8 +12,8 @@ widgets:
     limit: 5
   -
     type: template
-    template: bacon
-    cooking_method: fried
+    template: wordsmith
+    
   -
     type: form
     form: contact

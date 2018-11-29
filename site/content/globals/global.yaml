@@ -1,3 +1,29 @@
-id: d9bfc09a-3a90-41d3-8acc-3f551f8432af
 site_name: Redwood
-author_name: Niles Peppertrout
+about_company: 'This is the wordsmith company'
+our_newsletter: 'Our news Letter have information about  the latest tech in wordsmith'
+post_title: 'Our Popular Post'
+post_list:
+  post: 'The first post'
+  author_name: 'John doe'
+  date: 12/12/2018
+  url: null
+post_list_1:
+  post_1: 'The second post'
+  author_name_1: 'Jane Doe'
+  date_1: 12/12/2018
+  url: null
+post_list_2:
+  post_2: 'The third post'
+  author_name_2: 'John Doe'
+  date_2: 13/12/2018
+  url: null
+post_list_3:
+  post_3: 'the fourth  post'
+  author_name_3: 'Jane Doe'
+  date_3: 12/12/2018
+  url: null
+author_name: 'Niles Peppertrout'
+description: hello
+title: General
+fieldset: globals
+id: d9bfc09a-3a90-41d3-8acc-3f551f8432af
