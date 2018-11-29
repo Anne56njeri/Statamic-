@@ -102,14 +102,15 @@
             <div class="block-1-2 block-m-full popular__posts">
                 <article class="col-block popular__post">
                     <a href="#0" class="popular__thumb">
-                      {{theme:img src="tulips-150.jpg" tag="true"   alt="image_1"  }}
+
+                      {{ image }}<img src="{{ value }}" />{{ /image }}
 
                     </a>
 
 
                        <h5> {{post_list:post }}<h5>
-                         <section class="popular__meta">
-                       <span class="popular__author"><span>By</span>  <a href="{{ url }}" >{{post_list:author_name}}</a></span>
+                       <section class="popular__meta">
+                       <span class="popular__author"><span>By</span>  <a href="{{ post_list:url }}" >{{post_list:author_name}}</a></span>
                        <span class="popular__date"><span>on</span><time>{{ post_list:date }}</time></span>
 
                       </section>
@@ -118,50 +119,36 @@
 
                 <article class="col-block popular__post">
                     <a href="#0" class="popular__thumb">
-                        <img src="images/thumbs/small/wheel-150.jpg" alt="">
+                      {{ image_1 }}<img src="{{ value }}" />{{ /image_1 }}
                     </a>
 
                     <h5> {{post_list_1:post_1 }}<h5>
                       <section class="popular__meta">
-                    <span class="popular__author"><span>By</span>  <a href="{{ url }}" >{{post_list_1:author_name_1}}</a></span>
+                    <span class="popular__author"><span>By</span>  <a href="{{ post_list_1:url_1 }}" >{{post_list_1:author_name_1}}</a></span>
                     <span class="popular__date"><span>on</span><time>{{ post_list_1:date_1 }}</time></span>
                 </article>
 
                 <article class="col-block popular__post">
                     <a href="#0" class="popular__thumb">
-                        <img src="images/thumbs/small/shutterbug-150.jpg" alt="">
+                          {{ image_2 }}<img src="{{ value }}" />{{ /image_2 }}
                     </a>
                     <h5> {{post_list_2:post_2 }}<h5>
                       <section class="popular__meta">
-                    <span class="popular__author"><span>By</span>  <a href="{{ url }}" >{{post_list_2:author_name_2}}</a></span>
+                    <span class="popular__author"><span>By</span>  <a href="{{ post_list_2:url_2 }}" >{{post_list_2:author_name_2}}</a></span>
                     <span class="popular__date"><span>on</span><time>{{ post_list_2:date_2 }}</time></span>
                 </article>
 
                 <article class="col-block popular__post">
                     <a href="#0" class="popular__thumb">
-                        <img src="images/thumbs/small/cookies-150.jpg" alt="">
+                        {{ image_3 }}<img src="{{ value }}" />{{ /image_3 }}
                     </a>
                     <h5> {{post_list_3:post_3 }}<h5>
                       <section class="popular__meta">
-                    <span class="popular__author"><span>By</span>  <a href="{{ url }}" >{{post_list_3:author_name_3}}</a></span>
+                    <span class="popular__author"><span>By</span>  <a href="{{ post_list_3:url_3 }}" >{{post_list_3:author_name_3}}</a></span>
                     <span class="popular__date"><span>on</span><time>{{ post_list_3:date_3 }}</time></span>
                 </article>
-                <article class="col-block popular__post">
-                    <a href="#0" class="popular__thumb">
-                        <img src="images/thumbs/small/beetle-150.jpg" alt="">
-                    </a>
+              
 
-                </article>
-                <article class="col-block popular__post">
-                    <a href="#0" class="popular__thumb">
-                        <img src="images/thumbs/small/salad-150.jpg" alt="">
-                    </a>
-                    <h5>Healthy Mediterranean Salad Recipes</h5>
-                    <section class="popular__meta">
-                        <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
-                        <span class="popular__date"><span>on</span> <time datetime="2018-06-12">Jun 12, 2018</time></span>
-                    </section>
-                </article>
             </div> <!-- end popular_posts -->
         </div> <!-- end popular -->
 

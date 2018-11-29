@@ -6,3 +6,18 @@ fields:
     width: 25
   content:
     type: markdown
+  image:
+    type: assets
+    display: background_1_image
+    container: main
+    folder: img
+  image_1:
+    type: assets
+    display: background_2_image
+    container: main
+    folder: img
+  image_2:
+    type: assets
+    display: background_3_image
+    container: main
+    folder: img

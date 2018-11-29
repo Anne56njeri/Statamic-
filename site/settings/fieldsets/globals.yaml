@@ -27,24 +27,48 @@ fields:
       author_name: name
       date : date
       url: post_link
+  image:
+    type: assets
+    display: Image
+    container: main
+    folder: img
+
   post_list_1:
     type: array
     keys:
       post_1: Second_Post
       author_name_1: second_author
       date_1: second_date
-      url: post_link
+      url_1: post_link
+  image_1:
+    type: assets
+    display: Image_1
+    container: main
+    folder: img
+
   post_list_2:
     type: array
     keys:
       post_2: post
       author_name_2: author
       date_2: Date
-      url: post_link
+      url_2: post_link
+  image_2:
+    type: assets
+    display: Image_2
+    container: main
+    folder: img
+
   post_list_3:
     type: array
     keys:
       post_3: post
       author_name_3: author
       date_3: Date
-      url: post_link 
+      url_3: post_link
+  image_3:
+    type: assets
+    display: Image_3
+    container: main
+    folder: img
+  

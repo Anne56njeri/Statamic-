@@ -6,22 +6,30 @@ post_list:
   post: 'The first post'
   author_name: 'John doe'
   date: 12/12/2018
-  url: null
+  url: 'https://docs.statamic.com/tags/link'
+image:
+  - /assets/img/desert.jpg
 post_list_1:
   post_1: 'The second post'
   author_name_1: 'Jane Doe'
   date_1: 12/12/2018
-  url: null
+  url_1: 'https://docs.statamic.com/tags/link'
+image_1:
+  - /assets/img/redwood-balance.jpg
 post_list_2:
   post_2: 'The third post'
   author_name_2: 'John Doe'
   date_2: 13/12/2018
-  url: null
+  url_2: 'https://docs.statamic.com/tags/link'
+image_2:
+  - /assets/img/redwood-snow.jpg
 post_list_3:
   post_3: 'the fourth  post'
   author_name_3: 'Jane Doe'
   date_3: 12/12/2018
-  url: null
+  url_3: 'https://docs.statamic.com/tags/link'
+image_3:
+  - /assets/img/redwood-sunrise.jpg
 author_name: 'Niles Peppertrout'
 description: hello
 title: General
