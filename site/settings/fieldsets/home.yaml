@@ -6,18 +6,47 @@ fields:
     width: 25
   content:
     type: markdown
-  image:
-    type: assets
-    display: background_1_image
-    container: main
-    folder: img
-  image_1:
-    type: assets
-    display: background_2_image
-    container: main
-    folder: img
-  image_2:
-    type: assets
-    display: background_3_image
-    container: main
-    folder: img
+
+  cards:
+    type: replicator
+    display: Content Cards
+    sets:
+      card:
+        display: Card Details
+        fields:
+          card_title:
+            type: text
+          card_info:
+            type: text
+          card_image:
+            type: assets
+            container: main
+            max_files: 1
+          profile_image:
+            type: assets
+            container: main
+            max_files: 1
+          author_name:
+            type: text   
+          card_date:
+            type: date
+          card_link:
+            type: text
+
+  featured_posts:
+    type: replicator
+    display: Featured Posts
+    sets:
+      post:
+        display: Post
+        fields:
+          post_title:
+            type: text
+          post_summary:
+            type: markdown
+          post_image:
+            type: assets
+            container: main
+            max_files: 1
+          post_caption:
+            type: text
